@@ -18,12 +18,7 @@
 
 
 <div class="layout side-round">
-   <LIST> <h1> List </h1></LIST>
-   <a href="./Math/Math-Menu.html" class="button is-orange">Math </a>
-  
-   <a href="./Science/Science-Menu.html" class="button is-pink"> Science </a>
-
-   <a href="./Reading/Reading-Menu.html" class="button is-pink"> Reading</a>
-
+    <?php include 'System_Files/system.subjects.sub.menu.banner.php'?>
+    <?php include 'System_Files/system.subjects.sub.menu.subjects.list.php'?>
 
 </div>
